@@ -1,0 +1,51 @@
+.equipamentos-container {
+  padding: 30px;
+  background-color: #eeedeb;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #35797d;
+}
+
+.btn-novo {
+  background-color: #44babc;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-novo:hover {
+  background-color: #35797d;
+}
+
+.equipamentos-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.equipamentos-table th,
+.equipamentos-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+  color: #000;
+  cursor: pointer;
+}
+
+.equipamentos-table tr:hover {
+  background-color: #cce2e2;
+}

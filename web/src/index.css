@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eeedeb; /* cor clara da paleta */
+  color: #000000;
+}
+
+button {
+  cursor: pointer;
+}
+
+.error {
+  color: #b30000;
+  margin: 8px 0;
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Botão padrão */
+.btn-novo, .btn-voltar {
+  background-color: #44babc;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.btn-novo:hover, .btn-voltar:hover {
+  background-color: #35797d;
+}

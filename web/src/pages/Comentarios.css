@@ -1,0 +1,52 @@
+.comentarios-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #eeedeb;
+  border-radius: 8px;
+}
+
+.comentarios-container h2 {
+  text-align: center;
+  color: #35797d;
+  margin-bottom: 20px;
+}
+
+.comentario-item {
+  background-color: #ffffff;
+  border: 1px solid #b3b3b3;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.comentario-item h4 {
+  margin: 0 0 5px;
+  color: #35797d;
+}
+
+.comentario-item p {
+  margin: 0;
+  color: #000000;
+}
+
+.comentario-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.comentario-actions button {
+  background-color: #44babc;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comentario-actions button:hover {
+  background-color: #35797d;
+}

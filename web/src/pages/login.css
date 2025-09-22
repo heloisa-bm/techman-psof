@@ -1,0 +1,42 @@
+.login-container {
+  text-align: center;
+  background-color: #eeedeb;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.senha-campo {
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.entrar-btn {
+  margin-top: 20px;
+  padding: 12px 40px;
+  font-size: 18px;
+  background-color: #44babc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.entrar-btn:disabled {
+  background-color: #b3b3b3;
+  cursor: not-allowed;
+}
+
+.erro {
+  color: red;
+  margin-top: 15px;
+  font-weight: bold;
+}
